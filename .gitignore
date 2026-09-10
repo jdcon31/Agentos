@@ -1,0 +1,32 @@
+# Environment / config
+.env
+.env.*
+!.env.example
+config.json
+
+# Runtime state
+*.db
+*.sqlite
+*.sqlite3
+output/
+logs/
+*.log
+uploads/
+memory/
+training_data/
+
+# Credentials
+secrets/
+*.credentials.json
+service_account*.json
+client_secret_*.json
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Node
+node_modules/
